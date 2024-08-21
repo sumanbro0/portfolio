@@ -7,12 +7,13 @@
 }
 body{
     overflow-x: hidden;
+    background-color: #1E1E1E; /* Updated background color */
 }
 .hero-header{
     width:100%;
     height: 100%;
     min-height: 100vh;
-    background: #222;
+    background: #1E1E1E; /* Updated background color */
 }
 .wrapper{
     width:1280px;
@@ -35,7 +36,7 @@ header{
 .logo{
     height: 55px;
     width:55px;
-    background-color: #007ced;
+    background-color: #3c973f; /* Updated accent color */
     border-radius: 50%;
     color:#fff;
     font-weight: 700;
@@ -44,7 +45,6 @@ header{
     margin-right: 5px;
     cursor: pointer;
     text-align: center;
-    
 }
 .logo .logo-text{
     font-size: 24px;
@@ -63,13 +63,12 @@ nav .togglebtn{
 }
 nav .togglebtn span{
     display: block;
-    background-color: #007ced;
+    background-color: #4CAF50; /* Updated accent color */
     margin: 5px 0px;
     width:100%;
     height:3px;
     transition: 0.3s;
     transition-property:  transform, opacity;
-
 }
 nav .navlinks{
     list-style-type: none;
@@ -113,17 +112,16 @@ nav .navlinks li a{
     font-size: 14px;
 }
 .hero-text h5 span{
-    color:#007ced;
+    color:#4CAF50; /* Updated accent color */
     font-size: 16px;
 }
 .hero-text h1{
-    color: #007ced;
+    color: #4CAF50; /* Updated accent color */
     font-size: 3rem;
 }
 .hero-text p{
     color:#e5e5e5;
     line-height: 1.7em;
-
 }
 .btn-group{
     margin:45px 0;
@@ -140,7 +138,7 @@ nav .navlinks li a{
     box-shadow:  0 10px 10px -8px rgb(0 0 0 / 78%);
 }
 .btn.active{
-    border-color: #007ced;
+    border-color: #4CAF50; /* Updated accent color */
 }
 .hero-text .social i{
     color: #e5e5e5;
@@ -149,7 +147,7 @@ nav .navlinks li a{
     transition: 0.5s;
 }
 .hero-text .social i:hover{
-    color:#007ced;
+    color:#4CAF50; /* Updated accent color */
     transform: rotate(360deg);
 }
 /* Respnosiv design & displaying navbar for small screen */
@@ -185,7 +183,7 @@ nav .navlinks li a{
         bottom: 0;
         width: 60%;
         height: 100vh;
-        background-color: #222;
+        background-color: #1E1E1E; /* Updated background color */
         z-index: 3;
         box-shadow: 5px 13px 30px rgba(0,0,0,0.1);
         transition: 0.5s;
@@ -214,21 +212,21 @@ nav .navlinks li a{
     }
 }
 
-  .contact-button {
-            display: inline-block;
-            background-color: #007BFF;
-            color: white;
-            padding: 10px 20px;
-            border-radius: 30px;
-            text-decoration: none;
-            font-size: 16px;
-            transition: background-color 0.3s ease;
-        }
+.contact-button {
+    display: inline-block;
+    background-color: #3c973f; /* Updated accent color */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
 
-        .contact-button:hover {
-            background-color: #0056b3;
-        }
+.contact-button:hover {
+    background-color: #388E3C; /* Updated hover color */
+}
 
-        .contact-button i {
-            margin-right: 8px;
-        }
+.contact-button i {
+    margin-right: 8px;
+}
